@@ -25,3 +25,12 @@ function printName(name, n) {
 function plus(a, b) {
     return a + b;
 }
+module.exports.divide = (a, b) => a / b;
+
+module.exports = {
+    plus,
+    minus,
+    mulitply,
+    printX,
+    printName
+}
